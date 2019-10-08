@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Configurations\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\foodtea.Data\foodtea.Data.csproj" />
+    <ProjectReference Include="..\foodtea.Infrasctructure\foodtea.Infrasctructure.csproj" />
+    <ProjectReference Include="..\foodtea.Utilities\foodtea.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -18,4 +18,12 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\foodtea.Application\foodtea.Application.csproj" />
+    <ProjectReference Include="..\foodtea.Data.EF\foodtea.Data.EF.csproj" />
+    <ProjectReference Include="..\foodtea.Data\foodtea.Data.csproj" />
+    <ProjectReference Include="..\foodtea.Infrasctructure\foodtea.Infrasctructure.csproj" />
+    <ProjectReference Include="..\foodtea.Utilities\foodtea.Utilities.csproj" />
+  </ItemGroup>
+
 </Project>
